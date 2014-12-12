@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<ul>
+    {% for page in site.pages %}
+        {% if page.city %}
+        <li>
+            <h2>
+                <a href="{{ page.url | prepend: page.baseurl }}">{{ page.city }}</a>
+            </h2>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
