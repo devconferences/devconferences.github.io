@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-
-<ul>
-    {% for page in site.pages %}
-        {% if page.city %}
-        <li>
-            <h2>
-                <a href="{{ page.url | prepend: page.baseurl }}">{{ page.city }}</a>
-            </h2>
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div class="row">
+{% for page in site.pages %}
+    {% if page.city %}
+        <div class="col-md-2">
+            <a class="btn btn-city btn-block" href="{{ page.url | prepend: page.baseurl }}">{{ page.city }}</a>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
