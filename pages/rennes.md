@@ -1,7 +1,7 @@
 ---
 layout: page
 city: Rennes
-title: Geek Conferences in Rennes
+title: Dev Conferences @ Rennes
 permalink: /rennes/
 ---
 

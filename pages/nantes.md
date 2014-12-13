@@ -1,7 +1,7 @@
 ---
 layout: page
 city: Nantes
-title: Geek Conferences in Nantes
+title: Dev Conferences @ Nantes
 permalink: /nantes/
 ---
 

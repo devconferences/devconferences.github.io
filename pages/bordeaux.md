@@ -1,7 +1,7 @@
 ---
 layout: page
 city: Bordeaux
-title: Geek Conferences in Bordeaux
+title: Dev Conferences @ Bordeaux
 permalink: /bordeaux/
 ---
 
