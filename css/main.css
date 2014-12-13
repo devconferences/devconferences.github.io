@@ -49,4 +49,5 @@ h2 {
 img.logo {
     float: left;
     margin-right: 40px;
+    max-width: 20%;
 }
