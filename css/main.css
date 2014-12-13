@@ -15,6 +15,11 @@ footer {
     padding: 20px;
 }
 
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 div.title {
     font-size: 48px;
     font-weight: bold;
@@ -40,14 +45,4 @@ div.title a:hover {
 
 .btn-city:hover {
     color: #ffffff;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-img.logo {
-    float: left;
-    margin-right: 40px;
-    max-width: 20%;
 }
