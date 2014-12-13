@@ -13,6 +13,6 @@ Le Ch’ti JUG est un groupe d’utilisateurs Java ayant pour but de fédérer, 
 
 Ces évènements sont mensuels, gratuits, et ouverts à tous.
 
-<span class="glyphicon glyphicon-home"></span> [http://chtijug.org/](http://chtijug.org/)
+<span class="glyphicon glyphicon-home"></span> [http://chtijug.org](http://chtijug.org)
 
 
