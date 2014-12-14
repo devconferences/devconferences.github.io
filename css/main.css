@@ -46,3 +46,8 @@ div.title a:hover {
 .btn-city:hover {
     color: #ffffff;
 }
+
+div.conflinks {
+    margin-top: 20px;
+    text-align: center;
+}
