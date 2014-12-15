@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
+<div class="text-center">
+    Liste des conférences et communautés de développeurs en France.
+</div>
+
 <div class="row">
-{% for page in site.pages %}
+    {% for page in site.pages %}
     {% if page.city %}
-        <div class="col-md-2">
-            <a class="btn btn-city btn-block" href="{{ page.url | prepend: page.baseurl }}">{{ page.city }}</a>
-        </div>
+    <div class="col-md-2">
+        <a class="btn btn-city btn-block" href="{{ page.url | prepend: page.baseurl }}">{{ page.city }}</a>
+    </div>
     {% endif %}
-{% endfor %}
+    {% endfor %}
 </div>
