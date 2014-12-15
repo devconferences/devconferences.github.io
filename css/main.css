@@ -51,3 +51,7 @@ div.conflinks {
     margin-top: 20px;
     text-align: center;
 }
+
+div.conflinks a {
+    margin-bottom: 10px;
+}
