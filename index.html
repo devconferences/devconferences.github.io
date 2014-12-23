@@ -7,19 +7,6 @@ layout: default
     de développeurs en France.
 </div>
 
-<div class="text-center" style="margin-top: 20px;">
-    <a href="https://twitter.com/devconferences" class="twitter-follow-button" data-show-count="false">Follow @devconferences</a>
-    <script>!function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + '://platform.twitter.com/widgets.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, 'script', 'twitter-wjs');</script>
-</div>
-
 <div class="row">
     {% for page in site.pages %}
     {% if page.city %}
@@ -33,15 +20,37 @@ layout: default
     </div>
 </div>
 
-<div class="text-center">
-    <h2>Agenda des Conférences</h2>
+<div class="row">
+    <div class="col-md-8 text-center">
+        <h2>Agenda des Conférences</h2>
 
-    <p>Les dates des grandes conférences annuelles sont répertoriées ici.</p>
+        <p>Les dates des grandes conférences annuelles sont répertoriées ici.</p>
 
-    <div class="embed-responsive embed-responsive-4by3">
-        <iframe src="https://www.google.com/calendar/embed?src=devconferences.org%40gmail.com&ctz=Europe/Paris"
-                class="embed-responsive-item"
-                style="border: 0" width="800"
-                height="600" frameborder="0" scrolling="no"></iframe>
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe src="https://www.google.com/calendar/embed?src=devconferences.org%40gmail.com&ctz=Europe/Paris"
+                    class="embed-responsive-item"
+                    style="border: 0" width="800"
+                    height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <h2>Dernières infos</h2>
+
+        <p>
+            Via <a href="https://twitter.com/devconferences">@DevConferences</a>
+        </p>
+
+        <a class="twitter-timeline" href="https://twitter.com/devconferences" data-widget-id="546986135780851713">
+            Tweets by @devconferences
+        </a>
+        <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");</script>
     </div>
 </div>
